@@ -4,7 +4,6 @@
 
 #### clone the github repo and run these command
 
-`npm install`
-`npm start`
+`npm install && npm start`
 
 go to this link to see this application [link](https://complete-todo-liart.vercel.app)
