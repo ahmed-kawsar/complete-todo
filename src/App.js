@@ -15,7 +15,10 @@ const App = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    if (!newItem) return
+    if (!newItem) {
+      alert("please enter something!")
+      return
+    }
     if (editing && newItem) {
       setItems(
         items.map((item) => {
